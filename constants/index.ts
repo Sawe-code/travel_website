@@ -2,9 +2,9 @@
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/", key: "how_hilink_work", label: "How Hilink Work?" },
-  { href: "/", key: "services", label: "Services" },
+  { href: "/#features", key: "services", label: "Services" },
   { href: "/", key: "pricing ", label: "Pricing " },
-  { href: "/", key: "contact_us", label: "Contact Us" },
+  { href: "/#footer", key: "contact_us", label: "Contact Us" },
 ];
 
 // CAMP SECTION
@@ -46,27 +46,21 @@ export const FEATURES = [
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: "Learn More",
-    links: [
-      "About Hilink",
-      "Press Releases",
-      "Environment",
-      "Jobs",
-      "Privacy Policy",
-      "Contact Us",
-    ],
+    title: "Explore",
+    links: ["Home", "About Us", "Tours", "Camp Activities", "Gallery"],
   },
   {
-    title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    title: "Support",
+    links: ["FAQ", "Contact Us", "Booking Policy", "Terms & Conditions"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
+  title: "Contact",
   links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Email", value: "info@mountkenyacamp.com" },
+    { label: "Phone", value: "+254 700 000 000" },
+    { label: "Address", value: "Mount Kenya National Park, Kenya" },
   ],
 };
 
